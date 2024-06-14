@@ -1,0 +1,159 @@
+/*
+Author:    Build Rise Shine with Nyros (BRS)
+Created:   11.05.2022
+Library / Component: Styling page for the app
+(c) Copyright by BRS Studio | Build Rise Shine.
+*/
+
+:root {
+  --primary-color: linear-gradient(to bottom, red, black);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #495057 !important;
+  background-image: url('https://www.expenseanywhere.com/wp-content/uploads/2016/09/website-backgrounds-E280AB1E280AC-E280ABE280AC.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.f-bold {
+  font-size: 60px;
+}
+
+
+
+
+header .bg-gradient {
+  background: rgb(216,216,216);
+ 
+}
+
+body {
+  background: url(./BG.png);
+  background-size: cover;
+}
+
+header .navbar  {
+  padding: 20px 0 0;
+}
+
+header .navbar-brand {
+  padding: 0;
+  z-index: 1;
+  width: 213px;
+  height: 109px;
+  background-color: #1A4B84;
+}
+
+header .navbar-brand img {
+  width: 56px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header h3 {
+  font: normal normal 600 18px/27px Oswald;
+  color: #fff;
+}
+
+header h4 {
+  font: normal normal 600 18px/28px Oswald;
+  letter-spacing: 0.36px;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+header p {
+  font: 600 12px/15px Poppins;
+  letter-spacing: 0.24px;
+  color: #191919;
+}
+
+.ReactTitle {
+  background-color: #838383 ;
+  height: 50px;
+  font: normal normal 600 19px/27px Oswald;
+letter-spacing: 0.38px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+.ReactTitle img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+
+.link {
+  background-color: rgba(0,0,0,0.09);
+  font: normal normal medium 12px/15px Poppins;
+  letter-spacing: 0.24px;
+  height: 40px;
+  padding: 10px 10px;
+  
+}
+
+.link a {
+  color: #055BA6;
+ 
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.footer-dark {
+  background-color: #1A4B84;
+  color: #fff;
+}
+
+.toggle-currency{
+  font-size: 20px;
+}
+
+footer {
+  font: normal normal 600 12px/19px Oswald;
+letter-spacing: 0.24px;
+color: #FFFFFF;
+}
